@@ -1,9 +1,21 @@
-# Ionic boilerplate
+# Shopping cart built using Ionic2 and Firebase
 
-## Getting started
+### Instructions
 
+1. Create a firebase project [here](https://console.firebase.google.com/).
+
+2. Enter the project credentials in [this file](/src/app/app.module.ts). [__DEMO](/DEMO/demo_firebase_cred.gif)
+
+3. Enable Email authentication. [__DEMO](/DEMO/demo_email_auth.gif)
+
+4. Import the data into firebase database using [this json](/FIREBASE_DATA/dekene-export.json). [__DEMO](/DEMO/demo_import_json.png)
+
+5. Run the following the terminal
+
+Getting started
+---------------------
 - install nodejs, npm, gulp, bower, cordova, ionic & sass (if not already done)
-- `git clone git@github.com:loicknuchel/ionic-starter.git` : clone this repo
+- `git clone https://github.com/roninprogrammer/e_commerce_android.git` : clone this repo
 - `cd ionic-starter` : go to folder
 - `bower install` : install app dependencies
 - `npm install` : install build dependencies
